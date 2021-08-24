@@ -1,0 +1,85 @@
+    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(240, 20, 104), rgb(199, 67, 37));
+}
+.menu{
+    background-color: rgb(255, 0, 55);
+    margin: 0 auto;
+    }
+    
+    .menu ul {
+        padding:0px;
+        margin:0px;
+        float: left;
+        text-align: center;
+        width: 100%;   
+        background-color: rgb(218, 27, 116);
+        list-style:none;
+        font:80% Tahoma;
+        font-size: 15px;
+        box-shadow: 2px 3px 2px rgb(255, 0, 55);
+        position: fixed;
+    }
+    
+    .menu ul li {
+        display: inline-block;
+    }
+    
+    .menu ul li a {
+    background-color: rgb(218, 27, 116);
+    color: white;
+    text-decoration: none;
+    border-bottom:3px solid rgb(255, 0, 55);
+    padding: 10px 40px;
+    margin: 0 20px;
+    float:left;
+    }
+    
+    .menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    }
+.form{
+    top: 10%;
+}
+.box {
+    color: white;
+    width: 900;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -35%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+fieldset{
+    border: 3px solid rgb(255, 0, 55);
+}
+
+legend{
+    border: 1px solid rgb(255, 0, 55);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(218, 27, 116);
+    border-radius: 15px;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}

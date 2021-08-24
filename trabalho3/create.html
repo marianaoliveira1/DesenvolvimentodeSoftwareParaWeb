@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagem/svg" href="unnamed.png">
+    <title>Formulario</title>
+</head>
+<body><div class="menu">
+    <ul>
+        <li><a href="update.html">Update</a></li>
+        <li><a href="read.html">Read</a></li>
+        <li><a href="delete.html">Delete</a></li>
+    </ul>
+</div>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend>
+                    <b>Crie uma conta</b>
+                </legend>
+                <br>
+                <div class="inputBox">
+                    <label for="telfone">Número de telefone</label>
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                </div>
+                <br>
+                <div class="inputBox">
+                     <label for="nome">Primeiro nome</label>
+                    <input type="text" name="name" id="nome" class="inputUser" required>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="datadenascimento"><b>Meu aniversário</b></label> 
+                    <input type="date" name="datadenascimento" id="datadenascimento" class="inputUser" required>
+                </div>
+                <p>Eu sou:</p>
+                <input type="radio" id="feminino" name="genero" value="femonino" required>
+                <label for="feminino">Mulher</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Homem</label>
+                <br>
+                <input type="radio" id="naobinario" name="genero" value="naobinario" required>
+                <label for="naobinario">Outro</label>
+                <br>
+                <div class="inputBox">
+                    <label for="sexualidade">Minha orientação sexual: </label>
+                    <input type="text" name="sexualidade" id="sexualidade" class="inputUser" required>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="localizacao">Localização</label>
+                    <input type="text" name="localizacao" id="localizacao" class="inputUser" required>
+                </div>
+                <p>Quero ver</p>
+                <input type="radio" id="feminino" name="genero" value="femonino" required>
+                <label for="feminino">Mulher</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Homem</label>
+                <br>
+                <input type="radio" id="todos" name="todos" value="todos" required>
+                <label for="todos">Todos</label>
+                <br>
+                <br>
+                <div class="inputBox">
+                    <label for="hobbies">Meus hobbies</label>
+                    <input type="text" name="hobbies" id="hobbies" class="inputUser" required>
+                </div>
+                <br>
+                <center>
+                    <input type="submit" name="submite" id="submit" value = "Create">
+                </center>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

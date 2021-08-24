@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagem/svg" href="unnamed.png">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="menu">
+    <ul>
+        <li><a href="create.html">Create</a></li>
+        <li><a href="Update.html">Update</a></li>
+        <li><a href="delete.html">Delete</a></li>
+    </ul>
+    </div>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend>
+                    <b>Ver dados</b>
+                </legend>
+                <br>
+                <div class="inputBox">
+                    <label for="telfone">Número de telefone</label>
+                    <input readonly type="tel" name="telefone" id="telefone" class="inputUser" value="88 9 40028922" required>
+                </div>
+                <br>
+                <div class="inputBox">
+                     <label for="nome">Primeiro nome</label>
+                    <input readonly type="text" name="name" id="nome" class="inputUser" value="Francisvaldo Gleydson Chiqueta" required>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="datadenascimento"><b>Meu aniversário</b></label> 
+                    <!-- Padrão Americano --> 
+                    <!-- <input readonly type="date" name="datadenascimento" id="datadenascimento" class="inputUser" value="2001-11-26" required> --> 
+                    <!-- Padrão br --> 
+                    <input readonly type="date" name="datadenascimento" id="datadenascimento" class="inputUser" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" value="2017-06-01">
+                </div>
+                <p>Eu sou:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" disabled required>
+                <label for="feminino">Mulher</label>
+                <br>
+                <input checked=true type="radio" id="masculino" name="genero" value="masculino" disabled required>
+                <label for="masculino">Homem</label>
+                <br>
+                <input type="radio" id="naobinario" name="genero" value="naobinario" disabled required>
+                <label for="naobinario">Outro</label>
+                <br>
+                <div class="inputBox">
+                    <label for="sexualidade">Minha orientação sexual: </label>
+                    <input readonly type="text" name="sexualidade" id="sexualidade" class="inputUser" value="Hetero" required>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="localizacao">Localização</label>
+                    <input readonly type="text" name="localizacao" id="localizacao" class="inputUser" value="Rua Tabelião Enéas, 149, Centro, Quixadá " required>
+                </div>
+                <p>Quero ver:</p>
+                <input checked=true type="checkbox" id="feminino" name="genero" value="feminino" disabled required>
+                <label for="feminino">Mulher</label>
+                <br>
+                <input checked=true type="checkbox" id="masculino" name="genero" value="masculino" disabled required>
+                <label for="masculino">Homem</label>
+                <br>
+                <br>
+                <div class="inputBox">
+                    <label for="hobbies">Meus hobbies</label>
+                    <input readonly type="text" name="hobbies" id="hobbies" class="inputUser" value="Pedreiro, assisto doramas e faço tiktoks " required>
+                </div>
+                <br>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagem/svg" href="img/agroboy.png">
+    <title>Formulario</title>
+</head>
+<body>
+    
+<div class="box">
+    <form>
+      <h1>AgroBoy</h1>
+      <h5>Agro é tech, agro é pop, agro é vida... Agro é Boy, venha e junte-se a nós!<span class="emoji">&#x1F609;</span></h5>
+      <div class="btn-box"><a class="btn btn-link" href="#" target="_blank">Senta no fazendeiro</a></div>
+      <hr class="sep"/>
+      <div class="group">
+        <input type="text" required="required"/><span class="highlight"></span><span class="bar"></span>
+        <label>Nome</label>
+      </div>
+      
+      <div class="group">
+        <input type="text" required="required"/><span class="highlight"></span><span class="bar"></span>
+        <label>Email</label>
+      </div>
+      
+      <div class="group">
+        <input type="password" required="required"/><span class="highlight"></span><span class="bar"></span>
+        <label>Idade</label>
+      </div>
+
+      <div class="cook">
+        <select name="estado" id="estado">
+            <option value="padrao">Qual seu nível acadêmico?</option>
+            <option value="estudante">Ténico em agroécuária</option>
+            <option value="clt">Engenheiro agrônomo</option>
+            <option value="prefironaodizer">Zootecnista</option>
+            <option value="outro">Outro</option>
+        </select>
+      </div>
+
+
+      <h5>O que você gostaria de melhorar? (Selecione quantas quiser.)</h5>
+      
+        <div class="mark">
+            <input type="checkbox" id="op1" name="op1">
+            <span class="check"></span>
+            <label class="label" for="op1">Passar mais tempo na roça</label>
+        </div>
+        <div class="mark">
+            <input type="checkbox" id="op2" name="op2">
+            <span class="check"></span>
+            <label class="label" for="op2">Comprar uma railuqui</label>
+        </div>
+        <div class="mark">
+            <input type="checkbox" id="op3" name="op3">
+            <span class="check"></span>
+            <label class="label" for="op3">Comprar um avião para a colheita</label>
+        </div>
+        <div class="mark">
+            <input type="checkbox" id="op4" name="op4">
+            <span class="check"></span>
+            <label class="label" for="op4">Comprar mais terra</label>
+        </div>
+      
+
+      <div class="group">
+        <textarea type="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span>
+        <label>Message</label>
+      </div>
+
+      <div class="btn-box">
+        <button class="btn btn-submit" type="submit">submit</button>
+        <button class="btn btn-cancel" type="button">cancel</button>
+        <h5>*Esse site é contraindicado para pessoas da cidade. Pode conter homens sem camisa tratores e botas de cowboy, acesse por sua conta em risco <span class="emoji">&#x1F609;</span></h5>
+      </div>
+
+    </form>
+  </div>
+</body>
+</html>

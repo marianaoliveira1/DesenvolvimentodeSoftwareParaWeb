@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagem/svg" href="unnamed.png">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="create.html">Create</a></li>
+            <li><a href="read.html">Read</a></li>
+            <li><a href="delete.html">Delete</a></li>
+        </ul>
+    </div>
+    <div class="box">
+        <form class = "form" action="">
+            <fieldset>
+                <legend>
+                    <b style="color:white;">Atualize seus dados</b>
+                </legend>
+                <br>
+                <div class="inputBox">
+                    <label for="telfone">Número de telefone</label>
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" value="(88) 9 8687-7889">
+                </div>
+                <br>
+                <div class="inputBox">
+                     <label for="nome">Primeiro nome</label>
+                    <input type="text" name="name" id="nome" class="inputUser" value="Robson">
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="datadenascimento"><b>Meu aniversário</b></label> 
+                    <input type="date" name="datadenascimento" id="datadenascimento" class="inputUser" value="1999-03-19">
+                </div>
+                <p>Eu sou:</p>
+                <input type="radio" id="feminino" name="genero" value="femonino">
+                <label for="feminino">Mulher</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" checked >
+                <label for="masculino">Homem</label>
+                <br>
+                <input type="radio" id="naobinario" name="genero" value="naobinario">
+                <label for="naobinario">Outro</label>
+                <br>
+                <div class="inputBox">
+                    <label for="sexualidade">Minha orientação sexual: </label>
+                    <input type="text" name="sexualidade" id="sexualidade" class="inputUser" value="Gay">
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="localizacao">Localização</label>
+                    <input type="text" name="localizacao" id="localizacao" class="inputUser" value="Rua dos Bobos, número zero">
+                </div>
+                <p>Quero ver</p>
+                <input type="radio" id="feminino" name="interesse" value="femonino">
+                <label for="feminino">Mulher</label>
+                <br>
+                <input type="radio" id="masculino" name="interesse" value="masculino" checked>
+                <label for="masculino">Homem</label>
+                <br>
+                <input type="radio" id="todos" name="interesse" value="todos">
+                <label for="todos">Todos</label>
+                <br>
+                <br>
+                <div class="inputBox">
+                    <label for="hobbies">Meus hobbies</label>
+                    <input type="text" name="hobbies" id="hobbies" class="inputUser" value="Pintar em aquarela, Ir à academia, ler.">
+                </div>
+                <br>
+                <center>
+                    <input type="submit" name="update" id="update" value="Update">
+                </center>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
